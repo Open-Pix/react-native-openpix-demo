@@ -28,10 +28,11 @@ yarn android
 ```
 
 ## How to run on iOS
-install pods
-- ```bash
+- install pods
+```bash
 npx pod-install
 ```
+
 - run ios
 ```bash
 yarn ios
