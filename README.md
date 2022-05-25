@@ -23,18 +23,16 @@ This code uses [@openpix/react](https://www.npmjs.com/package/@openpix/react) pa
 
 ## How to run on Android
 
-```jsx
+```bash
 yarn android
 ```
 
 ## How to run on iOS
-
-```jsx
-yarn ios
+install pods
+- ```bash
+npx pod-install
 ```
-
-## How to run on Web
-
-```jsx
-yarn web
+- run ios
+```bash
+yarn ios
 ```
