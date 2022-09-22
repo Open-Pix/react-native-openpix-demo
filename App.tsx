@@ -4,7 +4,8 @@ import React from 'react';
 import { Provider as PaperProvider } from 'react-native-paper';
 import { ThemeProvider } from 'styled-components'
 import { ToastProvider } from 'react-native-styled-toast'
-import 'core-js/stable';
+import 'core-js/internals/is-constructor';
+import 'core-js/internals/microtask';
 import OpenPixDemo from './src/OpenPixDemo';
 
 // Toast Theme
